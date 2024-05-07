@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=3 uid="uid://c2sxf68j2j53u"]
 
 [ext_resource type="Script" path="res://Scripts/Enemy.gd" id="1_k02jk"]
-[ext_resource type="Texture2D" uid="uid://vl0fqtq6slby" path="res://Question Mark.svg" id="2_kukpc"]
+[ext_resource type="Texture2D" uid="uid://bmfrp7hgcl4n7" path="res://Sprites/Enemy.svg" id="2_u8hwn"]
 [ext_resource type="Script" path="res://Scripts/LoadExternalSprite.gd" id="3_oy52m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k2t56"]
@@ -228,11 +228,10 @@ size = Vector2(180, 119)
 size = Vector2(147, 48.5)
 
 [node name="Enemy" type="CharacterBody2D"]
-position = Vector2(4508, 959)
 script = ExtResource("1_k02jk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_kukpc")
+texture = ExtResource("2_u8hwn")
 script = ExtResource("3_oy52m")
 file_name = "Enemy.svg"
 
